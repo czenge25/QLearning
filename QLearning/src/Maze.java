@@ -43,4 +43,16 @@ public class Maze {
             }
         }
     }
+
+    public char[][] outputMaze() {
+        return maze;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public int getHeight() {
+        return height;
+    }
 }
