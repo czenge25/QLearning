@@ -6,7 +6,7 @@ public class Maze {
     private char[][] maze;
     private int width;
     private int height;
-    private int numStates = height * width;
+    private int statesCount = height * width;
 
     private Random r;
 
@@ -14,10 +14,10 @@ public class Maze {
     private final static char finish = 'F';
     private final static char empty = 'E';
 
-    public Maze(int width, int height) {
-        this.width = width;
-        this.height = height;
+    public Maze() {
         r = new Random();
+        width = r.nextInt(9) + 2;
+        height = r.nextInt(9) + 2;
     }
 
     public void generate() {
@@ -54,5 +54,9 @@ public class Maze {
 
     public int getHeight() {
         return height;
+    }
+
+    public int getStatesCount() {
+        return statesCount;
     }
 }
