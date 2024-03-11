@@ -16,8 +16,8 @@ public class Maze {
 
     public Maze() {
         r = new Random();
-        width = r.nextInt(9) + 2;
-        height = r.nextInt(9) + 2;
+        width = 3;
+        height = 3;
     }
 
     public void generate() {
