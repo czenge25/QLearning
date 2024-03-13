@@ -87,7 +87,6 @@ public class MazeSolver {
                 }
             }
         }
-        initializeQ();
     }
 
     boolean isFinalState(int state) {
