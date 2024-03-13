@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        MazeSolver solver = new MazeSolver();
+        solver.run();
+        solver.printQ();
+
     }
 }
