@@ -30,6 +30,7 @@ Output:
 The outputMaze() method converts the maze array to a string and writes it to a file named "maze.txt".
 
 **QLearning Class**
+
 *The QLearning class implements Q-learning algorithm to solve the maze problem.*
 
 Initialization: 
